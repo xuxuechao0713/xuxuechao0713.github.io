@@ -129,3 +129,91 @@ body {
 .s1 .footer img:nth-of-type(2) {
     left: -90px;
 }
+
+/*第二屏的样式*/
+
+.s2 {
+    color: #00f0c3;
+}
+
+.s2 h2 {
+    padding-top: 10%;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.s2 h2::before,
+.s2 h2::after {
+    content: "";
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s2 h2::before {
+    background: url("../img/14.png");
+    background-size: cover;
+    left: 45px;
+    top: 45px;
+}
+
+.s2 h2::after {
+    background: url("../img/13.png");
+    background-size: cover;
+    right: 45px;
+    top: 45px;
+}
+
+.s2 h2 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.s2 div {
+
+}
+
+.s2 img {
+    width: 80%;
+}
+
+.s2 .main {
+    position: relative;
+}
+
+.s2 .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 5%;
+    font-size: 14px;
+}
+
+.s2 .text p {
+    margin-bottom: 10px;
+}
+
+.s2 span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 120px;
+    height: 30px;
+    margin-left: -60px;
+    background: -moz-linear-gradient(left, #00e7f7, #00fc9f); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00e7f7), to(#00fc9f)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00e7f7, #00fc9f); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00e7f7, #00fc9f); /*Opera11*/
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+}
