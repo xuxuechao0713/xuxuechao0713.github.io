@@ -44,7 +44,7 @@ body {
 
 /* .s1*/
 
-.s1 {
+.s1,.s2{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -92,6 +92,14 @@ body {
 .s1 .main img:nth-of-type(2){
     width: 80%;
     margin-bottom: 22px;
+}
+.s1 .main .img9{
+    background: url("../img/9.png");
+    margin:auto;
+    width: 207px;
+    height: 24px;
+    background-size:cover;
+    font-weight: bold;
 }
 
 .s1 .footer {
