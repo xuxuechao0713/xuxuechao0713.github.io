@@ -185,7 +185,7 @@ body {
 
 /*第二屏的样式*/
 
-.s2,.s3,.s4,.s5{
+.s2,.s3,.s4,.s5,.s6,.s7{
     color: #00fbcb;
 }
 
@@ -703,4 +703,73 @@ body {
 
 .s5 .footer img:nth-of-type(2) {
     left: -90px;
+}
+/*66*/
+.s6 h2 {
+    padding-top: 10%;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.s6 h2::before,
+.s6 h2::after {
+    content: "";
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s6 h2::before {
+    background: url("../img/14.png");
+    background-size: cover;
+    left: 45px;
+    top: 45px;
+}
+
+.s6 h2::after {
+    background: url("../img/13.png");
+    background-size: cover;
+    right: 45px;
+    top: 45px;
+}
+
+.s6 h2 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.s6 .main3 .div{
+    position: absolute;
+}
+.s6 .main3 img:nth-of-type(1){
+    left: 7%;
+    position: absolute;
+    width: 35px;
+}
+.top{
+    position: absolute;
+    background: url("../img/31.png");
+    background-size: cover;
+    top: 20%;
+    left: 17%;
+    width: 80%;
+    height: 25px;
+    text-align: left;
+    padding-left: 20px;
+    color: #000215;
+    line-height: 25px;
+
+}
+.s6 .main3 div:nth-of-type(2){
+    position: absolute;
+    background: url("../img/32.png");
+    background-size: cover;
+    left: 17%;
+    top: 35%;
+    width: 80%;
+    text-align: left;
+    font-weight: bold;
+
 }
