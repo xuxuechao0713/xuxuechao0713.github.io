@@ -185,7 +185,7 @@ body {
 
 /*第二屏的样式*/
 
-.s2,.s3,.s4{
+.s2,.s3,.s4,.s5{
     color: #00fbcb;
 }
 
@@ -577,5 +577,130 @@ body {
 }
 
 .s4 .footer img:nth-of-type(2) {
+    left: -90px;
+}
+/*55*/
+.s5 h2 {
+    padding-top: 10%;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.s5 h2::before,
+.s5 h2::after {
+    content: "";
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s5 h2::before {
+    background: url("../img/14.png");
+    background-size: cover;
+    left: 45px;
+    top: 45px;
+}
+
+.s5 h2::after {
+    background: url("../img/13.png");
+    background-size: cover;
+    right: 45px;
+    top: 45px;
+}
+
+.s5 h2 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.s5 .main2 div{
+    position: absolute;
+    background: url("../img/bju.png");
+    background-size: cover;
+    width: 40%;
+}
+.s5 .main2 div img{
+    position: relative;
+}
+.s5 .main2 div img:nth-of-type(1){
+    position: relative;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.s5 .main2 div:nth-of-type(1){
+    left: 5%;
+}
+.s5 .main2 div img:nth-of-type(2){
+    position: relative;
+    width: 80%;
+    right: 5%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.s5 .main2 div:nth-of-type(2){
+    left: 50%;
+}
+.s5 .main2 div img:nth-of-type(3){
+    position: relative;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.s5 .main2 div:nth-of-type(3){
+    top: 55%;
+    left: 5%;
+}
+.s5 .main2 div img:nth-of-type(4){
+    position: relative;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.s5 .main2 div:nth-of-type(4){
+    top: 55%;
+    left: 50%;
+}
+.s5 .main2 div p:nth-of-type(2){
+    width: 90px;
+    height: 25px;
+    background: -moz-linear-gradient(left, #00e7f7, #00fc9f); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00e7f7), to(#00fc9f)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00e7f7, #00fc9f); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00e7f7, #00fc9f); /*Opera11*/
+    color: #000;
+    margin-left: 28px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    line-height: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.s5 .footer {
+    color: #01e2ba;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 170%;
+
+}
+
+.s5 .footer p:nth-of-type(1) {
+    height: 70px;
+}
+
+.s5 .footer img {
+    height: 70px;
+    position: absolute;
+}
+
+.s5 .footer img:nth-of-type(1) {
+    left: 0;
+}
+
+.s5 .footer img:nth-of-type(2) {
     left: -90px;
 }
