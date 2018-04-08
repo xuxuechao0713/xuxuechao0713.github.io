@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #0d0d0d;
+  overflow-x: hidden;
+  background-color: #F1F2ED;
+
+}
+/*nav*/
+.navbar-default{
+  background-color: #fff;
+  border: none;
+  margin: 0;
+    border-bottom: 10px solid #000;
+}
+.navbar-default .navbar-header {
+  width: 28%;
+  padding-right: 15px;
+}
+.navbar-default .nav-wrap {
+  width: 50%;
+}
+.navbar-default .nav > li > a {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 35px 30px;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus,
+.navbar-default .nav > li > a:active {
+  color: #a3a3a3;
+}
+.navbar-default .social-media {
+  float: right;
+  padding: 0 15px;
+}
+.navbar-default .social-media i {
+  font-size: 22px;
+}
+.img-responsive{
+    width: 156px;
+    padding-bottom: 15px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #a3a3a3;
+}
+.dropdown-menu{
+    background-color: #000;
+    color: #fff;
+}
+.dropdown-menu>li>a{
+    color: #fff;
+}
+#work{
+    margin-top: 40px;
+    .col-md-4{
+        position: relative;
+        img{
+            display: block;
+            width: 100%;
+        }
+        .imghover{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 91%;
+            margin: 0px 15px;
+           background:rgba(0,0,0,0.8);
+        }
+        .en{
+            font-size: 22px;
+            line-height: 22px;
+            padding: 0 0 12px;
+            display: block;
+            width: 100%;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .ene{
+            color: #fff;
+             display: block;
+            line-height: 34px;
+            font-size: 17px;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        h3{
+            color: #fff;
+            text-align: center;
+            }
+        a:hover{
+            display: block;
+            background-color: red;
+        }
+        
+    }
+}
+#xinwen{
+    h1{
+        text-align: center;
+        font-weight: bold;
+        margin: 40px 0 40px 0px;
+    }
+    h2{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "冬青黑体";
+        letter-spacing:2px;
+        color:#000;
+    }
+    p{
+         font-size: 14px;
+        line-height: 20px;
+        letter-spacing:2px;
+        color: darkslategrey;
+    }
+    a{
+        color: #589BC6;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px 0 15px 0px;
+    }
+}
+.xw{
+    margin-bottom: 50px;
+    .col-md-3{
+        img{
+            width: 100%;
+            margin-top: 15px;
+        }
+        background-color: #fff;
+        width: 22%;
+        border: 1px solid #d7d8d4;
+        margin-left: 20px;
+    }
+    .left{
+        margin-left: 20px;
+    }
+}
+.btn{
+        width: 100%;    
+        margin: 90px 0 0 0;
+}
+.btn a{
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Franklin-Book","冬青黑体","microsoft yahei";
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: none;
+}
+#off{
+    h1{
+        text-align: center;
+        color: #000;
+        font: bold 36px "Franklin-Demi","冬青黑体","microsoft yahei";
+        margin-bottom: 20px;
+    }
+    .col-md-3{
+        img{
+            display: block;
+            width: 100%;
+        }
+       }
+}
+footer{
+    background-color: #000;
+    margin-top:60px;
+    h1{
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .gong{
+        float: left;
+        margin-right: 50px;
+        margin-left: 20px;
+        font: 15px/26px "Franklin-Book","冬青黑体","microsoft yahei";
+    }
+    .cn{
+        p{
+         margin-left: 20px;
+        }
+    }
+    .cn{
+    margin:30px 0 40px 0;   
+    border-right: 1px solid #919191;
+    }
+    .right{
+         margin:30px 0 40px 0; 
+        p{
+            color: #fff;
+            padding-top: 25px;
+        }
+        span{
+            color: #589BC6;
+        }
+    }
+}
+
+
+/*运动员*/
+#two{
+    text-align: center;
+    h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #000;
+    }
+    h2{
+        width: 144px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+        border: 1px solid #000;
+    }
+    .h{
+        font-size: 16px;
+        color: #000;
+        line-height: 50px;
+        }
+    .span{
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            right: 10px;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            z-index: 9;
+        }
+    .row{
+        margin-bottom: 10px;
+    }
+        
+}
+
+/*jie*/
+#jie{
+    
+}
+
+#jie{
+    h2{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "冬青黑体";
+        letter-spacing:2px;
+        color:#000;
+    }
+    p{
+         font-size: 14px;
+        line-height: 20px;
+        letter-spacing:2px;
+        color: darkslategrey;
+    }
+    a{
+        color: #589BC6;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px 0 15px 0px;
+    }
+}
+.jie-text{
+    margin-bottom: 10px;
+    .col-md-3{
+        img{
+            width: 100%;
+            margin-top: 15px;
+        }
+        width: 22%;
+        margin-top: 20px;
+        border: 1px solid #d7d8d4;
+        margin-left: 20px;
+    }
+    .left{
+        margin-left: 20px;
+    }
+}
+
+/*shop*/
+#shop{
+    .col-md-3{
+        text-align: center;
+    }
+    h1{
+        border-left: 3px solid #000;
+        margin-left: 20px;
+        color: #000;
+        font-family:"Franklin-Book","冬青黑体","microsoft yahei";
+        padding-left: 20px;
+        
+    }
+    img{
+            width: 100%;
+        }
+    p{
+    font-size: 16px;
+    color: #64686b;
+    font-weight: bold;
+    letter-spacing: 2px;
+    }
+    span{
+        color: red;
+        }
+    .man{
+        margin-top: 40px;
+    }
+}
